@@ -760,6 +760,7 @@ h6 {
     background-color: #FFC736 !important;
     position: absolute !important;
     top: -10% !important;
+    left: 5% !important;
     width: 90% !important;
     background-image: url(asset/img/content-footer-2.png);
     background-position: bottom right;
