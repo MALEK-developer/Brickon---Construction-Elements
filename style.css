@@ -75,6 +75,89 @@ h6 {
     margin-bottom: 10px !important;
 }
 
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+/* splash screen */
+
+
+.splash-screen {
+    position: fixed;
+    z-index: 22222222222 !important;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    animation: splash-screen-move 5s ease-in-out;
+    transform: translateX(-100%);
+}
+
+@keyframes splash-screen-move {
+    0% {
+        transform: translateX(0%);
+    }
+
+    90% {
+        transform: translateX(0%);
+        opacity: 1;
+        scale: 1;
+    }
+    95% {
+        transform: translateX(0%);
+        opacity: 0;
+        scale: 0;
+    }
+
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+.splash-screen::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 23%;
+    height: 200%;
+    width: 120%;
+    /* background-color: rgba(255, 255, 255, 0.9) !important; */
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent);
+    z-index: 111111111;
+    transform: rotate(-45deg) translateY(-150%);
+    animation: splash-screen-shy 1.5s infinite linear;
+}
+
+@keyframes splash-screen-shy {
+    0% {
+        transform: rotate(-45deg) translateY(-150%);
+    }
+
+    100% {
+        transform: rotate(-45deg) translateY(150%);
+    }
+}
+
+.load {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.load h1 {
+    font-size: 10vw !important;
+    color: transparent;
+    -webkit-text-stroke: 5px black;
+}
+
 
 /* scroll */
 
@@ -83,7 +166,7 @@ h6 {
     width: 50px !important;
     position: fixed;
     background-color: black;
-    z-index: 22222222222222222222 !important;
+    z-index: 22222 !important;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -151,7 +234,6 @@ h6 {
 }
 
 .navbar-nav {
-    filter: drop-shadow(rgb(0, 0, 0)) !important;
     background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -213,12 +295,12 @@ h6 {
 @keyframes img-scale {
     0% {
         background-image: url(asset/img/content-first-1.jpg);
-        background-size: 100%;
+        background-size: 110%;
     }
 
     18% {
         background-image: url(asset/img/content-first-1.jpg);
-        background-size: 110%;
+        background-size: 120%;
     }
 
     24% {
@@ -227,12 +309,12 @@ h6 {
 
     25% {
         background-image: url(asset/img/content-first-5.jpg);
-        background-size: 100%;
+        background-size: 110%;
     }
 
     43% {
         background-image: url(asset/img/content-first-5.jpg);
-        background-size: 110%;
+        background-size: 120%;
     }
 
     49% {
@@ -241,12 +323,12 @@ h6 {
 
     50% {
         background-image: url(asset/img/content-first-3.jpg);
-        background-size: 100%;
+        background-size: 110%;
     }
 
     68% {
         background-image: url(asset/img/content-first-3.jpg);
-        background-size: 110%;
+        background-size: 120%;
     }
 
     74% {
@@ -255,12 +337,12 @@ h6 {
 
     75% {
         background-image: url(asset/img/content-first-4.jpg);
-        background-size: 100%;
+        background-size: 110%;
     }
 
     93% {
         background-image: url(asset/img/content-first-4.jpg);
-        background-size: 110%;
+        background-size: 120%;
     }
 
     99% {
@@ -269,7 +351,7 @@ h6 {
 
     100% {
         background-image: url(asset/img/content-first-1.jpg);
-        background-size: 100%;
+        background-size: 110%;
     }
 }
 
@@ -280,7 +362,7 @@ h6 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 11;
 }
 
@@ -760,7 +842,7 @@ h6 {
     background-color: #FFC736 !important;
     position: absolute !important;
     top: -10% !important;
-    left: 5% !important;
+    left: auto;
     width: 90% !important;
     background-image: url(asset/img/content-footer-2.png);
     background-position: bottom right;
