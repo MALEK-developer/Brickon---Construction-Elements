@@ -35,6 +35,33 @@
 <body>
 
 
+    <!-- splash screen -->
+
+    <div class="splash-screen">
+        <div class="load load-1">
+            <h1 data-aos-delay="10" data-aos="flip-left" data-aos-offset="25">B</h1>
+        </div>
+        <div class="load load-2">
+            <h1 data-aos-delay="10" data-aos="flip-left" data-aos-offset="25">r</h1>
+        </div>
+        <div class="load load-3">
+            <h1 data-aos-delay="10" data-aos="flip-left" data-aos-offset="25">i</h1>
+        </div>
+        <div class="load load-4">
+            <h1 data-aos-delay="10" data-aos="flip-left" data-aos-offset="25">c</h1>
+        </div>
+        <div class="load load-5">
+            <h1 data-aos-delay="10" data-aos="flip-left" data-aos-offset="25">k</h1>
+        </div>
+        <div class="load load-6">
+            <h1 data-aos-delay="10" data-aos="flip-left" data-aos-offset="25">o</h1>
+        </div>
+        <div class="load load-7">
+            <h1 data-aos-delay="10" data-aos="flip-left">n</h1>
+        </div>
+    </div>
+
+
     <!-- scroller -->
 
     <div class="scroll1"><a href="#nav"><i class="fa-solid fa-chevron-up"></i></a></div>
@@ -42,13 +69,11 @@
 
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg position-absolute px-5 h-auto mt-lg-2" id="nav" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg position-absolute px-5 h-auto mt-2" id="nav" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand w-25" href="#" style="filter: drop-shadow(0px 0px 10px black);"><img
-                    src="asset/img/navbar-logo.png" class="w-50" alt=""></a>
+            <a class="navbar-brand w-25" href="#"><img src="asset/img/navbar-logo.png" class="w-50" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-label="Toggle navigation"
-                style="box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);">
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
@@ -126,21 +151,21 @@
     <div class="container-fluid content-first p-2 mb-5">
         <div class="row content-first-row mx-1 py-lg-5">
             <div class="row row1 my-sm-5 pb-5 pt-md-0 pt-5 text-lg-start text-center m-0">
-                <div class="col-lg-8 ms-lg-5 my-md-5 p-md-5 d-flex flex-column align-items-lg-start align-items-center gap-lg-4 gap-3"
-                    style="text-shadow: 0px 0px 10px black;">
-                    <h1>Building the Future, Restoring the Past</h1>
+                <div
+                    class="col-lg-8 ms-lg-5 my-5 p-md-5 d-flex flex-column align-items-lg-start align-items-center gap-lg-4 gap-3">
+                    <h1>Building the Future, <br> Restoring the Past</h1>
                     <span>Our commitment to innovation drives us to employ cutting-edge technology and sustainable
                         practices in every project we undertake. We blend creativity with precision engineering .</span>
                     <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        <div class="btn" style="text-shadow: 0px 0px 0px black;">Contact Us</div>
+                        <div class="btn">Contact Us</div>
                     </div>
                 </div>
             </div>
-            <div class="row row2 position-md-absolute p-0 m-0">
+            <div class="row row2 p-0 m-0 my-5 py-lg-3">
                 <div
                     class="col-lg-5 content-first-bottom-scroll d-flex flex-column order-lg-0 order-1 align-items-start justify-content-end pb-lg-4">
-                    <div class="btn btn-back-none d-flex align-items-center gap-3">Scroll Down <i
-                            class="fa-solid fa-arrow-down"></i></div>
+                    <div class="btn btn-back-none d-flex align-items-center gap-3"><a href="#footer">Scroll Down <i
+                                class="fa-solid fa-arrow-down"></i></a></div>
                 </div>
                 <div class="col-lg-7 p-0 m-0 px-lg-0 px-md-5 px-2">
                     <div class="row row2-child h-100 text-black">
@@ -171,12 +196,13 @@
     <div class="container-fluid content-second my-5 text-lg-start text-center overflow-hidden">
         <div class="container content-second-data">
             <div class="row content-second-main-row">
-                <div class="col-lg-4 col-6 mx-lg-0 mx-auto p-0 py-md-5" data-aos="fade-right">
+                <div class="col-lg-4 col-6 mx-lg-0 mx-auto p-0 py-md-5" data-aos="fade-right" data-aos-delay="10">
                     <img src="asset/img/content-first-2.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-8 ps-lg-5 content-second-child-row2-1">
                     <div class="row h-50 pb-md-4 pt-md-5">
-                        <div class="col d-flex flex-column align-items-lg-start justify-content-between">
+                        <div
+                            class="col d-flex flex-column align-items-lg-start align-items-center justify-content-between">
                             <p>About Us</p>
                             <h1 class="d-lg-flex d-none">Leading The Way In Exceptional Construction</h1>
                             <h4 class="d-lg-none d-flex">Leading The Way In Exceptional Construction</h4>
@@ -196,16 +222,18 @@
                             <hr style="width: 100%;">
                             <div class="content-second-bottom-last" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal1">
-                                <div class="btn btn-primary btn-bg" data-aos="zoom-in">Discover More</div>
+                                <div class="btn btn-primary btn-bg" data-aos-delay="10" data-aos="zoom-in"
+                                    data-aos-offset="50">Discover More</div>
                             </div>
                         </div>
                         <div
                             class="col-lg-6 text-white content-second-bottom p-0 position-relative d-flex flex-column align-items-start justify-content-between">
                             <img src="asset/img/content-first-3.jpg" class="img-fluid overflow-x-hidden" alt=""
-                                data-aos="fade-up">
+                                data-aos-delay="10" data-aos="fade-up">
 
                             <div class="content-second-bottom-last position-absolute w-100 bottom-0 d-flex align-items-center"
-                                data-bs-toggle="modal" data-bs-target="#exampleModal" data-aos="fade-left">
+                                data-bs-toggle="modal" data-bs-target="#exampleModal" data-aos-delay="10"
+                                data-aos="fade-left">
                                 <div class="content-second-play position-relative m-4"
                                     style="width: 50px;height: 50px;">
                                     <div class="play-main position-absolute"></div><i class="fa-solid fa-play"></i>
@@ -247,7 +275,7 @@
 
     <div class="container-fluid content-third my-5 text-lg-start text-center">
         <div class="row row1 p-5 g-2">
-            <div class="col-lg-8 text-lg-start text-center" data-aos="fade-right">
+            <div class="col-lg-8 text-lg-start text-center" data-aos-delay="10" data-aos="fade-right">
                 <p>What We Do</p>
                 <h1>Delivering Quality from Start to Finish.</h1>
             </div>
@@ -257,7 +285,8 @@
 
                 <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                     <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        <div class="btn btn-primary btn-bg" data-aos="zoom-in">Browse All Services</div>
+                        <div class="btn btn-primary btn-bg" data-aos-delay="10" data-aos="zoom-in" data-aos-offset="50">
+                            Browse All Services</div>
                     </div>
                 </div>
 
@@ -286,14 +315,14 @@
         </div>
         <div class="row row2 g-3 m-0 p-0 overflow-hidden">
             <div class="col-lg-3 col-md-6 px-md-3">
-                <div class="content-third-box content-third-box1 border p-md-5 px-2 py-4" data-aos="flip-left">
+                <div class="content-third-box content-third-box1 border p-md-5 px-2 py-4 h-100" data-aos-delay="10"
+                    data-aos="flip-left">
                     <h4>Renovation & Remodeling</h4>
                     <span>Transforming spaces with precision and creativity to enhance functionality and style.</span>
                     <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                         <div
                             class="btn btn-back-none d-flex align-items-center justify-content-lg-start justify-content-center gap-3 text-black p-0 mb-5">
-                            <u>Learn
-                                More</u>
+                            <u>Learn More</u>
                         </div>
                     </div>
                     <div class="content-third-box-child content-third-box-child1 m-lg-0 mx-auto"
@@ -303,7 +332,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 px-md-3">
-                <div class="content-third-box content-third-box2 border p-md-5 px-2 py-4" data-aos="flip-left">
+                <div class="content-third-box content-third-box2 border p-md-5 px-2 py-4 h-100" data-aos-delay="10"
+                    data-aos="flip-left">
                     <h4>Sustainable Building</h4>
                     <span>Implementing eco-friendly practices and materials to create sustainable structures.</span>
                     <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
@@ -320,7 +350,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 px-md-3">
-                <div class="content-third-box content-third-box3 border p-md-5 px-2 py-4" data-aos="flip-left">
+                <div class="content-third-box content-third-box3 border p-md-5 px-2 py-4 h-100" data-aos-delay="10"
+                    data-aos="flip-left">
                     <h4>Construction Management</h4>
                     <span>Ensuring seamless execution of your project with expert from planning to completion.</span>
                     <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
@@ -337,7 +368,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 px-md-3">
-                <div class="content-third-box content-third-box4 border p-md-5 px-2 py-4" data-aos="flip-left">
+                <div class="content-third-box content-third-box4 border p-md-5 px-2 py-4 h-100" data-aos-delay="10"
+                    data-aos="flip-left">
                     <h4>Residential Construction</h4>
                     <span>Delivering custom-built homes that combine comfort, style, and functionality.tion</span>
                     <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
@@ -362,20 +394,22 @@
     <div class="container-fluid content-four my-5 py-5 px-4 position-relative text-lg-start text-center">
         <div class="container-fluid content-four-data">
             <div class="row row1 text-white p-md-5 p-2">
-                <div class="col-lg-6 p-lg-5 d-flex flex-column gap-3 align-items-lg-start" data-aos="fade-right">
+                <div class="col-lg-6 p-lg-5 d-flex flex-column gap-3 align-items-lg-start" data-aos-delay="10"
+                    data-aos="fade-right">
                     <p>Why Us</p>
                     <h1>Exceptional quality that can’t be beaten.</h1>
                     <span>We take pride in delivering a level of quality that simply can’t be surpassed. Our commitment
                         to excellence is woven into the very fabric of our work, and it’s what distinguishes us from the
                         rest.</span>
                     <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        <div class="btn btn-primary mt-lg-0 mt-3">Learn More</div>
+                        <div class="btn btn-primary mt-lg-0 mt-3" data-aos-delay="10" data-aos="zoom-in"
+                            data-aos-offset="50">Learn More</div>
                     </div>
                 </div>
                 <div class="col-lg-6 py-5">
                     <div class="row h-100 me-lg-5 g-md-4 g-1 content-four-row1-child d-flex flex-column">
                         <div class="col h-50 m-0 p-md-3 p-1 d-flex flex-md-row flex-column gap-3 p-3"
-                            data-aos="flip-up">
+                            data-aos-delay="10" data-aos="flip-up">
                             <div class="four-box four-box1 p-2 mx-lg-0 mx-auto"><i class="bi bi-patch-check"></i></div>
                             <div class="four-box-child">
                                 <h4>Quality Assurance</h4>
@@ -384,7 +418,8 @@
                                     to the highest standards</span>
                             </div>
                         </div>
-                        <div class="col h-50 p-md-3 p-1 d-flex flex-md-row flex-column gap-3 p-3" data-aos="flip-up">
+                        <div class="col h-50 p-md-3 p-1 d-flex flex-md-row flex-column gap-3 p-3" data-aos-delay="10"
+                            data-aos="flip-up">
                             <div class="four-box four-box2 p-2 mx-lg-0 mx-auto"><i class="bi bi-people"></i></div>
                             <div class="four-box-child">
                                 <h4>Expertise</h4>
@@ -406,7 +441,7 @@
                 </div>
             </div>
             <div class="row row3 p-md-5 p-2 text-white">
-                <div class="col-lg-7 p-lg-5 p-2 mb-lg-5 pt-0" data-aos="fade-right">
+                <div class="col-lg-7 p-lg-5 p-2 mb-lg-5 pt-0" data-aos-delay="10" data-aos="fade-right">
                     <span>Our team of skilled professionals has collectively logged 10K hours of dedication to our
                         craft, ensuring that every detail is meticulously executed. We’ve used over 1M tons of
                         top-quality materials, sourced responsibly, to construct enduring structures that stand the test
@@ -415,7 +450,8 @@
                     <span class="mt-4">We believe that actions speak louder than words, and numbers often tell the most
                         compelling story of our success.</span>
                 </div>
-                <div class="col-lg-5 p-lg-5 p-2 pb-0 mb-lg-5 pt-0" data-aos="zoom-in">
+                <div class="col-lg-5 p-lg-5 p-2 pb-0 mb-lg-5 pt-0" data-aos-delay="10" data-aos="zoom-in"
+                    data-aos-offset="50">
                     <div class="row four-last-col h-100 px-5 text-center">
                         <div
                             class="col-6 p-lg-1 py-3 border-end border-bottom d-flex flex-column align-items-center justify-content-center">
@@ -447,21 +483,23 @@
 
     <div class="container-fluid text-lg-start text-center content-five my-5">
         <div class="row row1 px-lg-5 g-lg-0 g-3">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos-delay="10" data-aos="fade-right">
                 <p>Our Project</p>
                 <h1 class="mt-2">Building Dreams, One Project at a Time</h1>
             </div>
             <div
                 class="col-lg-6 d-flex flex-column align-items-lg-start align-items-center justify-content-between gap-lg-0 gap-2 overflow-x-hidden">
-                <span data-aos="fade-left">Our diverse portfolio spans residential, commercial, and industrial projects,
+                <span data-aos-delay="10" data-aos="fade-left">Our diverse portfolio spans residential, commercial, and
+                    industrial projects,
                     each crafted with meticulous attention to detail.</span>
                 <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                    <div class="btn btn-primary btn-bg" data-aos="zoom-in">View All Projects</div>
+                    <div class="btn btn-primary btn-bg" data-aos-delay="10" data-aos="zoom-in" data-aos-offset="50">View
+                        All Projects</div>
                 </div>
             </div>
         </div>
         <div class="row row2 py-5 overflow-hidden">
-            <div class="col-lg-3 col-md-6 p-3" data-aos="fade-up">
+            <div class="col-lg-3 col-md-6 p-3" data-aos-delay="10" data-aos="fade-up">
                 <div class="five-box five-box2">
                     <div class="five-po">
                         <div class="five-text p-4" style="margin-bottom: 45vh;">
@@ -472,13 +510,13 @@
                         <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                             <div class="btn btn-primary btn-back-none"
                                 style="background-color: #FFC736 !important;color: black !important;"
-                                data-aos="zoom-in">
+                                data-aos-delay="10" data-aos="zoom-in" data-aos-offset="50">
                                 See All Details</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 p-3" data-aos="fade-up">
+            <div class="col-lg-3 col-md-6 p-3" data-aos-delay="10" data-aos="fade-up">
                 <div class="five-box five-box1">
                     <div class="five-po">
                         <div class="five-text p-4" style="margin-bottom: 45vh;">
@@ -490,13 +528,13 @@
                         <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                             <div class="btn btn-primary btn-back-none"
                                 style="background-color: #FFC736 !important;color: black !important;"
-                                data-aos="zoom-in">
+                                data-aos-delay="10" data-aos="zoom-in" data-aos-offset="50">
                                 See All Details</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 p-3" data-aos="fade-up">
+            <div class="col-lg-3 col-md-6 p-3" data-aos-delay="10" data-aos="fade-up">
                 <div class="five-box five-box3">
                     <div class="five-po">
                         <div class="five-text p-4" style="margin-bottom: 45vh;">
@@ -508,13 +546,13 @@
                         <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                             <div class="btn btn-primary btn-back-none"
                                 style="background-color: #FFC736 !important;color: black !important;"
-                                data-aos="zoom-in">
+                                data-aos-delay="10" data-aos="zoom-in" data-aos-offset="50">
                                 See All Details</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 p-3" data-aos="fade-up">
+            <div class="col-lg-3 col-md-6 p-3" data-aos-delay="10" data-aos="fade-up">
                 <div class="five-box five-box4">
                     <div class="five-po">
                         <div class="five-text p-4" style="margin-bottom: 45vh;">
@@ -526,7 +564,7 @@
                         <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                             <div class="btn btn-primary btn-back-none"
                                 style="background-color: #FFC736 !important;color: black !important;"
-                                data-aos="zoom-in">
+                                data-aos-delay="10" data-aos="zoom-in" data-aos-offset="50">
                                 See All Details</div>
                         </div>
                     </div>
@@ -541,13 +579,13 @@
     <div class="container-fluid content-six my-5 text-lg-start text-center">
         <div class="container content-six-data">
             <div class="row my-5 overflow-hidden">
-                <div class="col text-center" data-aos="fade-up">
+                <div class="col text-center" data-aos-delay="10" data-aos="fade-up">
                     <p>How We Work</p>
                     <h1>The Journey of Your Project with Us</h1>
                 </div>
             </div>
             <div class="row my-5 overflow-x-hidden">
-                <div class="col-lg-5 six-img p-0 position-relative py-5" data-aos="fade-right">
+                <div class="col-lg-5 six-img p-0 position-relative py-5" data-aos-delay="10" data-aos="fade-right">
                     <div class="six-img-content bg-white d-flex align-items-start justify-content-between gap-3 text-black p-0 p-3 position-lg-absolute my-5"
                         style="top: 70%;left: 0%; width: 70%;">
                         <div class="six-message-box d-flex align-items-center justify-content-center p-2"
@@ -564,7 +602,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-1 d-lg-flex d-none" data-aos="fade-left">
+                <div class="col-1 d-lg-flex d-none" data-aos-delay="10" data-aos="fade-left">
                     <div class="six-border h-100 w-25 position-relative ps-lg-5">
                         <div class="six-box six-box1 position-absolute d-flex align-items-center justify-content-center"
                             style="top: 0%; height: 35px; width: 35px;background-color: #FFC736;">
@@ -586,7 +624,7 @@
                             style="left: 135%; top: 5%; z-index: -1;"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 px-lg-5 p-0" data-aos="fade-left">
+                <div class="col-lg-6 px-lg-5 p-0" data-aos-delay="10" data-aos="fade-left">
                     <h4 class="mb-3 mt-lg-0 mt-3">Planning and Design</h4>
                     <span>In this initial phase, the project requirements and goals are defined, and the design concept
                         is
@@ -612,7 +650,7 @@
 
     <div class="container-fluid content-seven mt-5 text-lg-start text-center">
         <div class="row overflow-x-hidden">
-            <div class="col-lg-6 p-md-5 my-5" data-aos="fade-right">
+            <div class="col-lg-6 p-md-5 my-5" data-aos-delay="10" data-aos="fade-right">
                 <p>Testimonials</p>
                 <h1>Testimonials from Our Trusted Clients</h1>
                 <div id="carouselExample" class="carousel slide my-5 pe-md-5">
@@ -714,7 +752,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-lg-6 seven-img" data-aos="fade-left">
+            <div class="col-lg-6 seven-img" data-aos-delay="10" data-aos="fade-left">
             </div>
         </div>
     </div>
@@ -726,23 +764,23 @@
         <div class="container content-eight-data">
             <div class="row">
                 <div class="col-lg-2 col-md-6 mx-auto p-lg-0 p-5 py-3 d-flex align-items-center justify-content-center"
-                    data-aos="fade-up">
+                    data-aos-delay="10" data-aos="fade-up">
                     <img src="asset/img/content-eight-1.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-6 mx-auto p-lg-0 p-5 py-3 d-flex align-items-center justify-content-center"
-                    data-aos="fade-up">
+                    data-aos-delay="10" data-aos="fade-up">
                     <img src="asset/img/content-eight-2.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-6 mx-auto p-lg-0 p-5 py-3 d-flex align-items-center justify-content-center"
-                    data-aos="fade-up">
+                    data-aos-delay="10" data-aos="fade-up">
                     <img src="asset/img/content-eight-3.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-6 mx-auto p-lg-0 p-5 py-3 d-flex align-items-center justify-content-center"
-                    data-aos="fade-up">
+                    data-aos-delay="10" data-aos="fade-up">
                     <img src="asset/img/content-eight-4.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-2 col-md-6 mx-auto p-lg-0 p-5 py-3 d-flex align-items-center justify-content-center"
-                    data-aos="fade-up">
+                    data-aos-delay="10" data-aos="fade-up">
                     <img src="asset/img/content-eight-5.png" class="img-fluid" alt="">
                 </div>
             </div>
@@ -756,16 +794,18 @@
     <div class="container-fluid content-nine my-5 text-lg-start text-center">
         <div class="container content-nine-data">
             <div class="row py-5 overflow-x-hidden">
-                <div class="col-lg-5 pe-5 d-flex flex-column align-items-lg-start m-lg-0 my-4" data-aos="fade-right">
+                <div class="col-lg-5 pe-5 d-flex flex-column align-items-lg-start m-lg-0 my-4" data-aos-delay="10"
+                    data-aos="fade-right">
                     <p>FAQ</p>
                     <h1 class="pb-md-5">Answers to Your Questions About Construction.</h1>
                     <h4 class="mt-5">Still Have Questions?</h4>
                     <span>Can’t find the answer you’re looking for? Please contact with our customer service.</span>
                     <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        <div class="btn btn-primary btn-bg mt-4" data-aos="zoom-in">Contact Us</div>
+                        <div class="btn btn-primary btn-bg mt-4" data-aos-delay="10" data-aos="zoom-in"
+                            data-aos-offset="50">Contact Us</div>
                     </div>
                 </div>
-                <div class="col-lg-7" data-aos="fade-left">
+                <div class="col-lg-7" data-aos-delay="10" data-aos="fade-left">
                     <div class="accordion accordion-flush d-flex flex-column gap-2" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -864,17 +904,19 @@
     <div class="container-fluid content-ten my-5">
         <div class="row my-5">
             <div class="col-lg-7 ten-first p-5 pe-lg-0 text-white">
-                <div class="ten-text d-flex flex-column align-items-start mt-5" data-aos="fade-right">
+                <div class="ten-text d-flex flex-column align-items-start mt-5" data-aos-delay="10"
+                    data-aos="fade-right">
                     <h1>Let's Build Something Great Together!</h1>
                     <span class="mt-2">Contact us today, and let the journey to your dream construction project
                         begin!</span>
                     <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        <div class="btn btn-primarymt mt-5" data-aos="zoom-in">Contact Us</div>
+                        <div class="btn btn-primarymt mt-5" data-aos-delay="10" data-aos="zoom-in" data-aos-offset="50">
+                            Contact Us</div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 ten-second py-5" data-aos="fade-left">
-                <img src="asset/img/content-ten-3.png" class="img-fluid" alt="" data-aos="fade-up">
+            <div class="col-lg-5 ten-second py-5" data-aos-delay="10" data-aos="fade-left">
+                <img src="asset/img/content-ten-3.png" class="img-fluid" alt="" data-aos-delay="10" data-aos="fade-up">
             </div>
         </div>
     </div>
@@ -886,18 +928,18 @@
     <div class="container-fluid content-eleven my-5">
         <div class="container content-eleven-data">
             <div class="row row1 py-5">
-                <div class="col text-center" data-aos="fade-up">
+                <div class="col text-center" data-aos-delay="10" data-aos="fade-up">
                     <p>Our Blog</p>
                     <h1>Latest Insight & News</h1>
                 </div>
             </div>
             <div class="row row2 overflow-x-hidden">
-                <div class="col-lg-6 px-lg-2 h-100" data-aos="fade-right">
+                <div class="col-lg-6 px-lg-2 h-100" data-aos-delay="10" data-aos="fade-right">
                     <div class="eleven-row2-img">
                         <img src="asset/img/content-eleven-1.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 py-lg-0 py-4" data-aos="fade-left">
+                <div class="col-lg-6 py-lg-0 py-4" data-aos-delay="10" data-aos="fade-left">
                     <div class="row eleven-row2-child h-100 p-0 m-0 g-md-2 g-1">
                         <div class="col-md-6 mt-0 eleven-img"
                             style="background-image: url(asset/img/content-eleven-2.jpg);background-size: cover;"></div>
@@ -935,9 +977,9 @@
     <!-- content footer -->
 
 
-    <div class="container-fluid content-footer">
+    <div class="container-fluid content-footer" id="footer">
         <div class="container content-footer-data text-white">
-            <div class="row footer-po p-0 m-0 text-black" data-aos="fade-up">
+            <div class="row footer-po p-0 m-0 text-black" data-aos-delay="10" data-aos="fade-up">
                 <div class="col py-5">
                     <h1>Subcribe Our Newsletter</h1>
                     <span class="mt-3">Sign up our newsletter to get update information, news and free insight.</span>
@@ -945,8 +987,8 @@
                         <input type="email" placeholder="Your Email Address" class="m-0"
                             style="height: 100% !important;padding: 12px 30px 12px 30px;border: none;">
                         <div class="content-second-bottom-last" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                            <div class="btn btn-primary btn-footer" data-aos="zoom-in"><i
-                                    class="fa-solid fa-subscript"></i> Subscribe
+                            <div class="btn btn-primary btn-footer" data-aos-delay="10" data-aos="zoom-in"
+                                data-aos-offset="50"><i class="fa-solid fa-subscript"></i> Subscribe
                             </div>
                         </div>
                     </div>
